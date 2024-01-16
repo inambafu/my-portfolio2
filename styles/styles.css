@@ -28,6 +28,35 @@ section {
 	font-family: 'Roboto', sans-serif;
 }
 
+.about .about-content,
+.services .services-content,
+.work .work-content,
+.skills .skills-content,
+.contact .contact-content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+section .title {
+	position: relative;
+	font-size: 36px;
+	font-weight: 500;
+	margin-bottom: 35px;
+	padding-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+section .title::before {
+	content: "";
+	position: absolute;
+	bottom: 15px;
+	width: 98px;
+	height: 3px;
+	background: #0027ff;
+}
+
 /* navbar styling */
 
 .navbar {
@@ -177,3 +206,5 @@ section {
 	color: #0027ff;
 	background: none;
 }
+
+
