@@ -62,7 +62,7 @@ section .title::before {
 .navbar {
 	position: fixed;
 	width: 100%;
-	padding: 30px 0;
+	padding: 65px 0;
 	font-family: sans-serif;
 	z-index: 999;	
 	transition: all 0.3s ease;
@@ -127,7 +127,7 @@ section .title::before {
 
 .home {
 	display: flex;
-	background: url("../images/bg.png") no-repeat center;
+	background: url("../images/bg2.png") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100vh;
@@ -259,4 +259,14 @@ section .title::before {
 .about .about-content .right a:hover {
 	color: #0027ff;
 	background: none;
+}
+
+#hire-me {
+	background: none;
+	color: #0027ff;
+}
+
+#hire-me:hover {
+	background: #0027ff;
+	color: #fff;
 }
