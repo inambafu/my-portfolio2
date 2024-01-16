@@ -256,3 +256,7 @@ section .title::before {
 	transition: all 0.3s ease;
 }
 
+.about .about-content .right a:hover {
+	color: #0027ff;
+	background: none;
+}
