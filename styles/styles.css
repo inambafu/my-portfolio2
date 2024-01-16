@@ -212,3 +212,9 @@ section .title::before {
 .about .about-content .left {
 	width: 45%;
 }
+
+#about {
+	text-align: left;
+}
+
+
