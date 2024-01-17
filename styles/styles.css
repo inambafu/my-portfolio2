@@ -290,7 +290,13 @@ section .title::before {
 }
 
 .services .services-content .card {
-	width: calc(33% -20px;
+	width: calc(33% - 20px);
 	background: #222;
 	border-bottom: 4px solid #0027ff;
+	text-align: center;
+	border-radius: 5px;
+	padding: 50px 25px;
+	margin-bottom: 36px;
+	cursor: pointer;
+	transition: all 0.3s ease;
 }
