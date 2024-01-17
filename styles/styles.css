@@ -418,3 +418,36 @@ section .title::before {
 	align-items: center;
 	justify-content: space-between;
 }
+
+.skills .skills-content .right .span {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.skills .skills-content .right .line {
+	height: 5px;
+	width: 100%;
+	background: lightgrey;
+	position: relative;
+}
+
+.skills .skills-content .right .line::before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #0027ff;
+}
+
+.skills-content .right .html::before {
+	width: 55%;
+}
+
+.skills-content .right .css::before {
+	width: 35%;
+}
+
+.skills-content .right .js::before {
+	width: 25%;
+}
