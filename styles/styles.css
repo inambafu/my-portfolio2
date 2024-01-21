@@ -107,7 +107,7 @@ section .title::before {
 	color: #111;
 	font-size: 23px;
 	cursor: pointer;
-	display: block;
+	display: none;
 }
 
 /* navbar sticky */
@@ -407,7 +407,7 @@ section .title::before {
 
 .skills .skills-content .left a:hover {
 	color: #0027ff;
-	background: none:
+	background: none;
 }
 
 .skills .skills-content .right .bars {
