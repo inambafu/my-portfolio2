@@ -7,6 +7,13 @@ $(document).ready(function(){
 		}else{
 			$('.navbar').removeClass("sticky");
 		}
+
+		//scroll btn-hide/show
+		if(this.scrollY > 400) {
+			$('.scroll-up-btn').addClass("show");
+		}else{
+			$('.scroll-up-btn').removeClass("show");
+		}
 	});
 	//typing effect
 	var typed = new Typed(".typing", {
