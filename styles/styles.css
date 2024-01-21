@@ -567,3 +567,15 @@ section .title::before {
 	color: #0027ff;
 	background: none;
 }
+
+
+/* footer section styling */
+
+footer {
+	background: #111;
+	padding: 40px;	
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	
+}
