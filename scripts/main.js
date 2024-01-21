@@ -23,6 +23,13 @@ $(document).ready(function(){
 		// removing smooth scroll on slide up button click
 		$('html').css("scrollBehaviour", "auto");
 	});
+
+	//navigation menu toggle script
+	$('.menu-btn').click(function() {
+		$('.navbar .menu').toggleClass("active");
+		$('.menu-btn i').toggleClass("active");
+	});
+	
 	//typing effect
 	var typed = new Typed(".typing", {
 		strings: ["Web Designer", "Web Developer", "Freelancer", "Consultant"],

@@ -107,7 +107,7 @@ section .title::before {
 	color: #111;
 	font-size: 23px;
 	cursor: pointer;
-	display: none;
+	display: block;
 }
 
 /* navbar sticky */
