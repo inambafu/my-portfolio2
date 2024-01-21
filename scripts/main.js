@@ -15,6 +15,14 @@ $(document).ready(function(){
 			$('.scroll-up-btn').removeClass("show");
 		}
 	});
+
+	//script for slide up
+	$('.scroll-up-btn').click(function(){
+		$('html').animate({scrollTop: 0});
+	
+		// removing smooth scroll on slide up button click
+		$('html').css("scrollBehaviour", "auto");
+	});
 	//typing effect
 	var typed = new Typed(".typing", {
 		strings: ["Web Designer", "Web Developer", "Freelancer", "Consultant"],
