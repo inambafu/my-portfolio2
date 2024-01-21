@@ -464,7 +464,7 @@ section .title::before {
 .contact .contact-content .text {
 	font-size: 20px;
 	font-weight: 600;
-	weight-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .contact .contact-content .left p {
@@ -544,7 +544,7 @@ section .title::before {
 
 .contact .right form .button-area {
 	display: flex;
-	aligh-items: center;
+	align-items: center;
 }
 
 .right form .button-area button {
@@ -561,4 +561,9 @@ section .title::before {
 	border: 2px solid #0027ff;	
 	background: #0027ff;
 	transition: all 0.3s ease;
+}
+
+.right form .button-area button:hover {
+	color: #0027ff;
+	background: none;
 }
