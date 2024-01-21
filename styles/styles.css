@@ -577,5 +577,18 @@ footer {
 	color: #fff;
 	text-align: center;
 	font-size: 14px;
-	
+	font-family: sans-serif;	
+}
+
+footer span a {
+	color: #0027ff;
+	text-decoration: none;
+}
+
+footer span {
+	margin-bottom: 12px;
+}
+
+footer span a:hover {
+	text-decoration: underline
 }
